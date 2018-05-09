@@ -1,0 +1,185 @@
+body {
+font-family: 'Lora', serif;
+
+  color:#ffffff;
+  background-color:black;
+  display:inline;
+  padding-top:30px;
+  opacity:1;
+  }
+  
+h2{
+	text-align:center;
+font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+header {
+  padding: 20px 0;
+}
+.navbar  {
+ position:fixed;
+  overflow: hidden;
+  top:0;
+  width:100%;
+  background-color:black;
+  padding-right:50px;
+  
+}
+
+.navbar a {
+  float: right;
+  display:block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+.navbar a:hover {
+  background-color:  #944dff;
+  color: black;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size-adjust:0.58;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fffff;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.parallax {
+    background-image: url("https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+    min-height: 550px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+  align-items: center;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  color:#fff;
+  
+  
+}
+
+
+
+.jumbotron{
+	background-image:url("https://snappygoat.com/o/0811c8ccf2248b2d719ddfb392aecc5a89420cfb/stars-background-blue-photoshop-1436950.jpg");
+    width:100%;
+	background-size:cover;
+	}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img2 {
+    float: left;
+	margin-right:30px;
+	margin-bottom:30px;
+	margin-left:250px;
+}
+
+.text1{
+	padding-bottom:50px;
+
+
+.col-sm-8 {
+	text-align:left;
+	margin:30px;
+	padding:10px;
+}
+.container{
+	padding:30px;
+}
+
+.table-hover tbody tr:hover td {
+    background: aqua;
+}
+
+.col-sm-8{
+	background-color:white!important;
+}
+
+footer{
+  font-size: 5px;
+  padding: 40px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+

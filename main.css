@@ -1,0 +1,205 @@
+body {
+font-family: 'Lora', serif;
+
+  color:#ffffff;
+  background-color:black;
+  display:inline;
+  padding-top:30px;
+  opacity:1;
+  }
+  
+h2{
+	text-align:center;
+font-family: 'Libre Baskerville', serif;
+
+
+}
+
+header {
+  padding: 20px 0;
+}
+.navbar  {
+ position:fixed;
+  overflow: hidden;
+  top:0;
+  width:100%;
+  background-color:black;
+  padding-right:50px;
+  
+}
+
+.navbar a {
+  float: right;
+  display:block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+.navbar a:hover {
+  background-color:  #944dff;
+  color: black;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size-adjust:0.58;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fffff;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.parallax {
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/non-copyrighted-background-images-5.jpg");
+
+    min-height: 550px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+  align-items: center;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  color:#fff;
+  
+  
+}
+#animatedintro  {
+    animation: fadein 4s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.jumbotron{
+	background-image:url("https://snappygoat.com/o/0811c8ccf2248b2d719ddfb392aecc5a89420cfb/stars-background-blue-photoshop-1436950.jpg");
+    width:100%;
+	background-size:cover;
+	}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img2 {
+    float: left;
+	margin-right:30px;
+	margin-bottom:30px;
+	margin-left:250px;
+}
+
+.text1{
+	padding-bottom:50px;
+
+
+.col-sm-8 {
+	text-align:left;
+	margin:30px;
+	padding:10px;
+}
+.container{
+	padding:30px;
+}
+
+.table-hover tbody tr:hover td {
+    background: aqua;
+}
+.button {
+  font: bold 11px Berkshire Swash;
+  text-decoration: none;
+  background-color:#944dff;
+  padding: 2px 6px 2px 6px;
+  color: #E18FDB;
+  text-shadow: none;
+ }
+
+
+
+footer {
+  font-size: 8px;
+  padding: 40px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
